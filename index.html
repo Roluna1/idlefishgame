@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/assets/styles/home/home.css">
-  <link rel="stylesheet" href="src/assets/styles//player-stats/playerXP.css">
+  <link rel="stylesheet" href="src/assets/styles/player-stats/playerXP.css">
+  <link rel="stylesheet" href="src/assets/styles/player-stats/playerpearl.css">
+  <link rel="stylesheet" href="src/assets/styles/player-stats/playerfishcoin.css">
+  <link rel="stylesheet" href="src/assets/styles/sections/mid-section.css">
   <title>Document</title>
 </head>
 <body>
@@ -12,22 +15,54 @@
     <div class="lvl-bar-container">
       <h3>Level 1</h3>
       <div class="lvl-bar-exterior">
-      <div class="lvl-bar-interior"><p>1 / 50 XP</p></div>
+        <p>5 / 50 XP</p>
+      <div class="lvl-bar-interior"></div>
       </div>
     </div>
-
-    <div class="player-pearl-container">
-      <div class="player-pearl">
-        <p>50</p>
-      </div>
-    </div>
-
-    <div class="player-fish-coin-container">
-      <div class="player-fish-coin">
-      <p>200</p>
+    <div class="player-pearl-and-fishcoin-container">
+      <div class="player-pearl-and-fishcoin-content">
+        <div class="player-pearl-container">
+          <div class="player-pearl">
+            <p>50</p>
+          </div>
+        </div>
+    
+        <div class="player-fish-coin-container">
+          <div class="player-fish-coin">
+          <p>200</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+  <div class="mid-section-container">
+    <div class="mid-section-content">
+      <div class="fishing-rod-container">
+        <div class="fishing-rod-display-container">
+          <img class="fishing-rod-img" src="src/assets/img/fishing-rods/wooden-fishing-rod.png">
+          <div>
+            <p>1:00</p>
+          </div>
+        </div>
+      </div>
+        <div class="fish-catch-container">
+          <div class="backpack-container">
+            <img class="four-utilities" src="src/assets/img/backpacks/backpack-lvl-1.png">
+          </div>
+          <div class="map-container">
+            <img class="four-utilities" src="src/assets/img/symbols/upgrade.png" alt="">
+          </div>
+          <div class="upgrade-container">
+            <img class="four-utilities" src="src/assets/img/symbols/map.png" alt="">
+          </div>
+          <div class="shop-container">
+            <img class="four-utilities" src="src/assets/img/symbols/shop.png"> 
+          </div>
+        </div>
+      </div>
+    </div>
+
   <script type="module" src="./js/main.js"></script>
 </body>
 </html>

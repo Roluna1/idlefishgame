@@ -1,0 +1,13 @@
+.player-fish-coin-container {
+  display: flex;
+  background-color: wheat;
+  width: 100%;
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.player-fish-coin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

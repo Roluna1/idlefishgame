@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  flex: 2;
 }
 .lvl-bar-container h3{
   color: rgb(190, 190, 190);
@@ -17,6 +18,16 @@
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
   border: 1px white solid;
+  overflow: hidden;
+}
+.lvl-bar-exterior p {
+  display: flex;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 .lvl-bar-interior {
@@ -25,7 +36,7 @@
   justify-content: center;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 5%;
   height: 100%;
   border-radius: 20px;
   background-color: rgb(53, 129, 201);

@@ -1,0 +1,11 @@
+.player-pearl-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 200px;
+  background-color: rgb(153, 108, 108);
+}
+.player-pearl {
+  color: white;
+}
