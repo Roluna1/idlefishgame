@@ -8,14 +8,16 @@
   <link rel="stylesheet" href="src/assets/styles/player-stats/playerpearl.css">
   <link rel="stylesheet" href="src/assets/styles/player-stats/playerfishcoin.css">
   <link rel="stylesheet" href="src/assets/styles/sections/mid-section.css">
+  <link rel="stylesheet" href="src/assets/styles/inventory/inventory.css">
+  <link rel="stylesheet" href="src/assets/styles/inventory/fish.css">
   <title>Document</title>
 </head>
 <body>
   <div class="top-section">
     <div class="lvl-bar-container">
-      <h3>Level 1</h3>
+      <h3 class="lvl-text">Level 1</h3>
       <div class="lvl-bar-exterior">
-        <p>5 / 50 XP</p>
+        <p class="lvl-bar-text">0 / 152 XP</p>
       <div class="lvl-bar-interior"></div>
       </div>
     </div>
@@ -29,7 +31,7 @@
     
         <div class="player-fish-coin-container">
           <div class="player-fish-coin">
-          <p>200</p>
+          <p class="player-fishcoins">0</p>
           </div>
         </div>
       </div>
@@ -40,7 +42,11 @@
     <div class="mid-section-content">
       <div class="fishing-rod-container">
         <div class="fishing-rod-display-container">
-          <img class="fishing-rod-img" src="src/assets/img/fishing-rods/wooden-fishing-rod.png">
+          <button class="fishing-rod-button">
+            <img 
+            class="fishing-rod-img" 
+            src="src/assets/img/fishing-rods/wooden-fishing-rod.png">
+          </button>
           <div>
             <p>1:00</p>
           </div>
@@ -48,7 +54,9 @@
       </div>
         <div class="fish-catch-container">
           <div class="backpack-container">
-            <img class="four-utilities" src="src/assets/img/backpacks/backpack-lvl-1.png">
+            <button class="backpack-button">
+              <img class="four-utilities" src="src/assets/img/backpacks/backpack-lvl-1.png">
+            </button>
           </div>
           <div class="map-container">
             <img class="four-utilities" src="src/assets/img/symbols/upgrade.png" alt="">
@@ -62,7 +70,24 @@
         </div>
       </div>
     </div>
+    <div class="inventory-container-show">
+      <div class="inventory-container">
+        <div class="exit-button">
+          <button class="exit-button">X</button>
+        </div>
+        <div class="inventory-content">
+          <div class="inventory-section">
+            <button>Fish</button>
+            <button>Fish tackles</button>
+            <button>Chest</button>
+            <button>Potions</button>
+          </div>
+          <div class="player-fish-inventory-container">
 
+          </div>
+        </div>
+      </div>
+    </div>
   <script type="module" src="./js/main.js"></script>
 </body>
 </html>
